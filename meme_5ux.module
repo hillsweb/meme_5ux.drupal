@@ -1,0 +1,30 @@
+<?php
+
+/**
+ * @file
+ * Provides custom functionality for the Meme 5ux module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function meme_5ux_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.meme_5ux':
+      return '<p>' . t('Help text for Meme 5ux module.') . '</p>';
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function meme_5ux_theme() {
+  return [
+    'meme_5ux_block_template' => [
+      'variables' => ['meme_url' => NULL, "meme_text" => NULL],
+      'template' => 'meme-5ux-block-template',
+    ],
+  ];
+}

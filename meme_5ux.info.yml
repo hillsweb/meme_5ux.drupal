@@ -1,0 +1,9 @@
+name: 'Meme 5ux'
+type: module
+description: 'A module for integrating external images based on user selections.'
+core_version_requirement: ^8 || ^9 || ^10
+package: Custom
+dependencies:
+  - block
+libraries:
+  - meme_5ux/meme_5ux_block

@@ -1,0 +1,12 @@
+/* css for img.meme-5ux */
+div.meme-5ux-block,
+div.block-meme-5ux {
+  width: auto;
+  text-align: center;
+}
+div.meme-5ux-block img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin: auto;
+}

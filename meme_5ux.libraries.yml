@@ -1,0 +1,5 @@
+meme_5ux_block:
+  version: 1.x-dev
+  css:
+    theme:
+      css/meme-5ux-block.css: {}
